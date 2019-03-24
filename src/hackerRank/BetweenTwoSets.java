@@ -41,7 +41,7 @@ public class BetweenTwoSets {
 			}
 
 			for (int j = 0; j < two.length; j++) {
-
+				System.out.println(two[j]);
 				if (!flag)
 					break;
 				if (two[j] % i != 0) {
@@ -49,7 +49,7 @@ public class BetweenTwoSets {
 					break;
 				}
 			}
-			System.out.println(flag);
+			
 			if (flag)
 				total++;
 
